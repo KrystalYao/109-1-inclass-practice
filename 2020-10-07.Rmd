@@ -1,0 +1,31 @@
+---
+title: "課堂練習模版"
+author: "Krystal_410882049"
+date: "2020-10-07"
+output: output_format
+params:
+  id: "410882049"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+utils::browseURL("https://classroom.google.com/c/MTQxMzcyNjA2MDc0")
+utils::browseURL("https://tpemartin.github.io/NTPU-R-for-Data-Science/")
+```
+
+```{r}
+a <- 2
+a = 2 # = 與 <-同義
+3 -> b
+myName <- "Mary"
+length(myName) # 查看物件本身代表幾個值。
+num1 <- 5
+vNum1 <- c(2,5)
+vNum2 <- c(2, num1)
+```
+
