@@ -1,0 +1,37 @@
+---
+title: "課堂練習模版"
+author: "Krystal_410882049"
+date: "2020-11-18"
+output: output_format
+params:
+  id: "410882049"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+restaurant = "すき家 Sukiya (新北三峽店)"
+date = lubridate::mdy("Nov 10, 2020")
+order = list(
+  list(
+    item="蕃茄牛丼",
+    quantity=1
+  )
+)
+total = 328
+oneOrder <- list(
+  "restaurant"=restaurant,
+  "date"=date,
+  "order"=order,
+  "total"=total
+)
+oneOrder$order[[2]] <- list(
+    item="蕃茄牛丼",
+    quantity=1
+  )
+```
+
